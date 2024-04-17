@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1DECB;
+    margin: 0px;
+}
+
+header {
+    background-color: #E9D252;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 28px;
+}
+
+nav {
+    background-color: #EBCE90;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #d6cfcb;
+    color: white;
+}
+
+footer {
+    background-color: #d1be9c;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    float: left;
+    width: 73%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.card {
+    /*background-color: white;*/
+    background-image: url(image/background/background.jpg);
+    background-size: cover;
+
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+
+.p1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p2 {
+    background-color: rgb(185, 178, 178);
+    color: white;
+    font-weight: bold;
+}
+
+.item_image {
+    width: 400px;
+    height: auto;
+}
+
+.item_image2 {
+    width: 300px;
+    height: auto;
+}
+
+.item_image3 {
+    max-width: 100%;
+}
+
+.item_image4 {
+    width: 400px;
+    height: auto;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+}
+
+.square1 {
+    width: 150px;
+    height: 20px;
+    background: lightcoral;
+    display: block;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+
+.square1:hover {
+    width: 400px;
+}
+
+.square2 {
+    width: 150px;
+    height: 20px;
+    background: lightcoral;
+    display: block;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+
+.square2:hover {
+    width: 350px;
+}
+
+.square3 {
+    width: 150px;
+    height: 20px;
+    background: lightcoral;
+    display: block;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+
+.square3:hover {
+    width: 450px;
+}
+
+.square4 {
+    width: 150px;
+    height: 20px;
+    background: lightcoral;
+    display: block;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+
+.square4:hover {
+    width: 450px;
+}
+
+.square5 {
+    width: 150px;
+    height: 20px;
+    background: lightcoral;
+    display: block;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: .5s;
+}
+
+.square5:hover {
+    width: 400px;
+}
+
+@media screen and (max-width: 800px) {
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
+}
