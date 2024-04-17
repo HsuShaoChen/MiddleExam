@@ -79,6 +79,10 @@ aside {
     font-weight: bold;
 }
 
+.p3{
+    font-size: larger;
+    font-weight: bold;
+}
 .item_image {
     width: 400px;
     height: auto;
